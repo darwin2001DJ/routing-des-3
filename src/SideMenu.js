@@ -1,16 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class SideMenu extends Component {
-  render() {
-    return (
-      <>
-        <nav id="sidemenu">
-          <h1>AXES BANK</h1>
-          <a>Dashboard</a>
-          <a>Customer</a>
-          <a>Loan Request</a>
-        </nav>
-      </>
-    );
-  }
+export default function SideMenu() {
+  return (
+    <div>
+      <nav id="sidemenu">
+        <h1>AXES BANK</h1>
+        <a>Dashboard</a>
+        <a>Customer</a>
+        <a>Loan Request</a>
+      </nav>
+    </div>
+  );
 }
